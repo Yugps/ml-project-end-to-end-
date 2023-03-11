@@ -1,4 +1,8 @@
+scikit-learn
+catboost
 pandas
 numpy
 seaborn
--e .
+matplotlib
+polars
+#-e . 

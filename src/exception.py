@@ -19,8 +19,10 @@ class custom_exception(Exception):
         return self.error_message
     
 
-try:
-    a=1/0
-except Exception as e:
-    logging.info('Divide by zero error')
-    raise custom_exception(e,sys)
+#try:
+#    a=1/0
+#except Exception as e:
+#    logging.info('Divide by zero error')
+#    raise custom_exception(e,sys)
+
+# Run the above code to see how exception handling and logging works together 
